@@ -1,0 +1,80 @@
+body {
+    background-color: #2B81AC;
+    font-family: "Times New Roman",Times,serif;
+    color: white;
+}
+
+main {
+    margin: 20px auto;
+    background-color: #3399CC;
+    height: 89vh;/*% от высота окна без масштаба шрифта*/
+    width: 93vw;/*% от ширины окна без масштаба шрифта*/
+    padding: 20px;
+}
+p,ul, li {
+    margin:0;padding: 0; box-sizing: border-box;} /*внутрение отступы в коробке*/
+
+.wetherbox {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+em{
+ margin: 40px;
+}
+
+ul {
+    border: 2px solid white;/*рамки */
+    background-color: white;
+    min-width: 50px;
+    max-width: 100%;
+    font-size:0;
+}
+/*указатель*/
+ul:hover li:hover {/*цвет при наведении на одину ячейку */
+    opacity: 1;
+        transition: all .1s ease-in;
+}
+ul:hover li {/*для остольной части*/
+    opacity: 0.5;
+}
+
+li {
+    border: 2px solid white;
+    display: inline-block;
+    min-width: 90px;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    color: #CFDFDF;
+    height:85px;
+}
+
+li:nth-child(1)  { 
+    background-color: #3399CC; width: 50%;}
+li:nth-child(2)  { 
+    background-color: #33CCCC; width: 25%;}
+li:nth-child(3)  { 
+    background-color: #996699;width: 25%;}
+li:nth-child(4)  { 
+    background-color: #C24747;width: 25%;}
+li:nth-child(5)  { 
+    background-color: #E2674A;width: 25%;}
+li:nth-child(6)  { 
+    background-color: #FFCC66;width: 25%;}
+li:nth-child(7)  { 
+    background-color: #99CC99;width: 25%;}
+li:nth-child(8)  { 
+    background-color: #669999;width: 25%;}
+li:nth-child(9)  { 
+    background-color: #CC6699;width: 50%;}
+li:nth-child(10) { 
+    background-color: #339966;width: 25%;}
+li:nth-child(11) { 
+    background-color: #666699;width: 100%;}
+
+
+
+
+
+
